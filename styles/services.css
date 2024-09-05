@@ -1,0 +1,11 @@
+.devices{
+    fill: var(--purple);
+}
+
+.hard{
+    fill: var(--yellow)
+}
+
+.infinity{
+    fill: var(--green);
+}
