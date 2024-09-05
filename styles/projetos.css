@@ -1,0 +1,154 @@
+#destaque{
+    width: 100vw;
+    height: 917px;
+    background-color: var(--gray-200);
+
+    h1{
+        font: var(--inconsolata-subtitle);
+        color: var(--red);
+        text-align: center;
+        padding-top: 72px;
+        margin-bottom: 8px;
+    
+    }
+
+    h2{
+        text-align: center;
+        font: var(--asap-title-md);
+        color: var(--gray-600);
+        margin-bottom: 56px;
+    }
+}
+
+.grid-container{
+    display: flex;
+    width: 1040px;
+    height: 584px;
+    margin-inline: auto;
+
+    .grid{
+        display: grid;
+        width: 100%;
+        height: 100%;
+        grid-template-columns: repeat(3, 330px);
+        grid-template-rows: repeat(2, 280px);
+        
+        justify-content: space-between;
+        
+        gap: 24px;
+
+        .grid-item{
+            width: 330px;
+            height: 280px;
+            background-color: var(--gray-300);
+            border-radius: 12px;
+            gap: 24px;
+
+            
+        
+        }
+
+        .grid-item:hover{
+            border: 1px solid var(--gray-400);
+        }
+
+        .image-container{
+
+            width: 306px;
+            height: 156px;
+            overflow: hidden;
+            margin: 12px;
+            margin-bottom: 20px;
+            background-size: contain;
+            border-radius: 8px;
+            background-image: url(../assets/images/Thumbnail_Project-01.png);
+            
+            
+        }
+
+        .image-container2{
+            background-image: url(../assets/images/Thumbnail_Project-02.png);
+            width: 306px;
+            height: 156px;
+            overflow: hidden;
+            margin: 12px;
+            margin-bottom: 20px;
+            background-size: contain;
+            border-radius: 8px;
+        }
+
+        .image-container3{
+            background-image: url(../assets/images/Thumbnail_Project-03.png);
+            width: 306px;
+            height: 156px;
+            overflow: hidden;
+            margin: 12px;
+            margin-bottom: 20px;
+            background-size: contain;
+            border-radius: 8px;
+        }
+
+
+        .image-container4{
+            background-image: url(../assets/images/Thumbnail_Project-04.png);
+            width: 306px;
+            height: 156px;
+            overflow: hidden;
+            margin: 12px;
+            margin-bottom: 20px;
+            background-size: contain;
+            border-radius: 8px;
+        }
+
+        .image-container5{
+            background-image: url(../assets/images/Thumbnail_Project-05.png);
+            width: 306px;
+            height: 156px;
+            overflow: hidden;
+            margin: 12px;
+            margin-bottom: 20px;
+            background-size: contain;
+            border-radius: 8px;
+        }
+
+        .image-container6{
+            background-image: url(../assets/images/Thumbnail_Project-06.png);
+            width: 306px;
+            height: 156px;
+            overflow: hidden;
+            margin: 12px;
+            margin-bottom: 20px;
+            background-size: contain;
+            border-radius: 8px;
+        }
+
+
+        .card-text {
+                box-sizing: border-box;
+                
+                color: var(--gray-600);
+                font: var(--asap-title-sm);
+                text-align: left;
+
+                
+        }
+
+        .card-text span:nth-child(1){
+            display: block;
+            margin-bottom: 8px;
+            padding-inline: 12px;
+            
+        }
+
+        .card-text span:nth-child(2){
+            color: var(--gray-500);
+            font: var(--maven-text-sm);
+            display: block;
+            margin: 12px;
+        }
+
+    }
+
+    
+    
+}
