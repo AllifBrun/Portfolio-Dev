@@ -9,3 +9,65 @@
 .infinity{
     fill: var(--green);
 }
+
+#services{
+    height: 480px;
+    width: 100%;
+    background-color: var(--gray-100);
+    
+
+   
+}
+
+
+#services span:nth-child(1){
+    padding-top: 88px;
+    padding-bottom: 8px;
+    font: var(--inconsolata-subtitle);
+    color: var(--red);
+    text-align: center;
+    display: block;
+}
+
+
+
+.ajudar{
+    font: var(--asap-title-md);
+    color: var(--gray-600);
+    text-align: center;
+    display: block;
+    margin-bottom: 56px;
+} 
+
+.services-item1 span:nth-child(2), .services-item2 span:nth-child(2), .services-item3 span:nth-child(2){
+    color: var(--gray-600);
+    font: var(--asap-title-sm);
+}
+
+.services-item1 span:nth-child(3), .services-item2 span:nth-child(3), .services-item3 span:nth-child(3){
+    color: var(--gray-500);
+    font: var(--maven-text-sm);
+}
+
+.services-container{
+    display: flex;
+    margin-inline: 279px;
+    width: 888px;
+    height: 155px;
+    gap: 24px;
+
+    div{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        
+        width: 100%;
+        height: 100%;
+        border: 3px solid var(--gray-200);
+        border-radius: 15px;
+
+        svg, span{
+            margin-left: 22px;
+        }
+    }
+}
