@@ -53,7 +53,7 @@
 
 .services-container{
     display: flex;
-    margin-inline: 279px;
+    margin-inline: auto;
     width: 888px;
     height: 155px;
     gap: 24px;
